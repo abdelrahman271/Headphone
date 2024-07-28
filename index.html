@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headphone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dist/output.css">
+
+</head>
+<body class="font-poppin">
+    <header class="sm:fixed sm:bg-black sm:w-full z-50">
+        <div class="container mx-auto py-5 px-10 lg:px-36  ">
+            <nav class="navbar-list flex justify-between items-center">
+                <div class="brand w-[160px]">
+                    <img src="images/logo-dark.png" alt="Logo" class="md:w-full sm:hidden">
+                    <img src="images/logo-white.png" alt="Logo" class="sm:w-full md:hidden">
+                </div>
+                <div class="sm:hidden sm:fixed sm:top-16 sm:-inset-x-full sm:z-40 sm:bg-black sm:text-white md:bg-white md:text-black " id="navbar">
+                    <ul class="flex py-6 sm:space-y-3 sm:flex-col items-center flex-row md:space-x-2 sm:text-center">
+                        <li><a href="#HOME" class="capitalize font-medium btn-sm btn ">home</a></li>
+                        <li><a href="#ABOUT" class="capitalize font-medium btn-sm btn">about</a></li>
+                        <li><a href="#PRODUCTS" class="capitalize font-medium btn-sm btn">product</a></li>
+                        <li><a href="#SERVICES" class="capitalize font-medium btn-sm btn">services</a></li>
+                        <li><a href="#CONTACT" class="capitalize font-medium btn-sm btn">contact</a></li>
+                    </ul>
+                </div>
+                <div class="md:hidden cursor-pointer z-50" id="bars">
+                    <i class="fa-solid fa-bars text-2xl sm:text-white"  id="icon"></i>
+                </div>
+            </nav>
+        </div>
+    </header> 
+    <section id="HOME" class="sm:pt-20">
+        <div class="container gap-x-7  mx-auto px-10 lg:px-36  flex flex-col lg:flex-row items-center justify-center">
+            <div class="imghome relative w-full lg:w-6/12 flex justify-center items-center lg:order-2 pb-10">
+                <img src="images/header-bg.png" alt="" class="absolute w-80 h-80 opacity-5 right-1 top-2/4 -translate-y-2/4  z-0">
+                <img src="images/header.png" alt="" class="w-9/12 z-10 ">
+            </div>
+            <div class="texthome w-full lg:w-6/12 mb-10 text-center lg:text-left  lg:mb-0 sm:order-1">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4">Bluetooth Headphone</h1>
+                <p class="text-base md:text-lg lg:text-xl text-gray-500">Dive into our curated selection of premium Bluetooth headphones, crafted for the ultimate listening experience.</p>
+            </div>
+        </div>
+    </section>
+    <section id="ABOUT" class="pt-24 lg:h-screen">
+        <div class="header text-center pb-8"><h1 class="text-7xl">About us</h1></div>
+        <div class="about container gap-x-7  mx-auto px-10 lg:px-36  flex flex-col lg:flex-row items-center justify-center">
+            <div class="imgabout relative w-full lg:w-6/12 flex justify-center items-centerpb-10 pb-10">
+                <img src="images/store-1.png" alt="" class="w-8/12">
+            </div>
+            <div class="textabout w-full lg:w-6/12 mb-10 text-center lg:text-left  lg:mb-0">
+                <h1 class="text-transparent bg-clip-text bg-gradient-to-r from-[#212640] to-[#8f2c35] sm:text-1xl md:text-3xl lg:text-5xl font-bold leading-tight mb-4">the latest headphones with the latest technology</h1>
+                <p class="text-[14px] text-gray-500 pb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, minus, nisi labore repellendus dolor dignissimos, error expedita eius deleniti ex deserunt nemo mollitia laboriosam architecto.</p>
+                <button class="hover:bg-[#8f2c35] hover:text-[#212640]  py-2 px-3 rounded duration-200 bg-[#212640] text-[#8f2c35] ">Shop Now</button>
+            </div>
+        </div>
+    </section>
+    <section id="PRODUCTS" class="pt-24 lg:h-screen">
+        <div class="header text-center pb-8">
+            <h1 class="text-7xl pb-5">Products</h1>
+            <h2 class="text-3xl">JBL beats design</h2>
+            <p class="text-[14px] text-gray-500 py-4">Explore our JBL Beats Design collection, where style meets superior audio performance.</p>
+        </div>
+        <div class="swip container gap-x-7  mx-auto px-10 lg:px-36  flex flex-col lg:flex-row items-center justify-center">
+            <div class="swiper w-full">
+                <div class="swiper-wrapper pb-10">
+                    <div class="swiper-slide flex justify-center items-center flex-col  ">
+                        <h4>Model no- 00035</h4>
+                        <img src="images/store-1.png" alt="store" class="w-1/2 py-3">
+                        <h3>Price- $120</h3>
+                    </div>
+                    <div class="swiper-slide flex justify-center items-center flex-col">
+                        <h4>Model no- 00025</h4>
+                        <img src="images/store-2.png" alt="store" class="w-1/2 py-3">
+                        <h3>Price- $110</h3>
+                    </div>
+                    <div class="swiper-slide flex justify-center items-center flex-col">
+                        <h4>Model no- 00055</h4>
+                        <img src="images/store-3.png" alt="store" class="w-1/2 py-3">
+                        <h3>Price- $150</h3>
+                    </div>
+                    <div class="swiper-slide flex justify-center items-center flex-col">
+                        <h4>Model no- 00045</h4>
+                        <img src="images/store-4.png" alt="store" class="w-1/2 py-3">
+                        <h3>Price- $140</h3>
+                    </div>
+                    <div class="swiper-slide flex justify-center items-center flex-col ">
+                        <h4>Model no- 00015</h4>
+                        <img src="images/store-5.png" alt="store" class="w-1/2 py-3">
+                        <h3>Price- $100</h3>
+                    </div>
+                    <div class="swiper-slide flex justify-center items-center flex-col">
+                        <h4>Model no- 00065</h4>
+                        <img src="images/store-6.png" alt="store" class="w-1/2 py-3 ">
+                        <h3>Price- $160</h3>
+                    </div>
+                    <div class="swiper-slide flex justify-center items-center flex-col">
+                        <h4>Model no- 00040</h4>
+                        <img src="images/store-2.png" alt="store" class="w-1/2 py-3">
+                        <h3>Price- $145</h3>
+                    </div>
+                    <div class="swiper-slide flex justify-center items-center flex-col"> 
+                        <h4>Model no- 00045</h4>
+                        <img src="images/store-4.png" alt="store" class="w-1/2 py-3">
+                        <h3>Price- $140</h3>
+                    </div>
+                    <div class="swiper-slide flex justify-center items-center flex-col">
+                        <h4>Model no- 00065</h4>
+                        <img src="images/store-6.png" alt="store" class="w-1/2 py-3 ">
+                        <h3>Price- $160</h3>
+                    </div>
+                    <div class="swiper-slide flex justify-center items-center flex-col ">
+                        <h4>Model no- 00015</h4>
+                        <img src="images/store-5.png" alt="store" class="w-1/2 py-3">
+                        <h3>Price- $100</h3>
+                    </div>
+                </div>
+                
+                <div class="swiper-pagination pt-20"></div>
+            </div>
+        </div>
+    </section>
+    <section id="SERVICES" class="pt-24 lg:h-screen">
+        <div class="header text-center pb-8"><h1 class="text-7xl">Services</h1></div>
+        <div class="serv container gap-x-7  mx-auto px-10 lg:px-36  flex flex-col lg:flex-row justify-center">
+            <div class="box text-center bg-black rounded shadow p-7 lg:w-1/3 w-full mb-3">
+                <i class="fa-solid fa-truck-fast text-6xl text-white"></i>
+                <h3 class="py-3 text-3xl font-semibold text-white">Fast Delivery</h3>
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci necessitatibus nulla debitis blanditiis voluptatibus quas, fuga totam, rerum facere magnam nam, aut vero ut ipsum nemo accusantium. Nihil, inventore consectetur.</p>
+            </div>
+            <div class="box text-center bg-black rounded shadow p-7 lg:w-1/3 w-full mb-3">
+                <i class="fa-solid fa-rotate-left text-6xl text-white"></i>
+                <h3 class="py-3 text-3xl font-semibold text-white">Replacement</h3>
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero doloribus quo dicta iste. Sit iste, alias, amet quasi cumque labore fugit possimus in quos similique tempore voluptatibus placeat, at laboriosam?</p>
+            </div>
+            <div class="box text-center bg-black rounded shadow p-7 lg:w-1/3 w-full mb-3">
+                <i class="fa-solid fa-headset text-6xl text-white"></i>
+                <h3 class="py-3 text-3xl font-semibold text-white">24 x 7 Support</h3>
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis magnam dolorem molestias quibusdam soluta odio veniam vitae delectus nemo explicabo quis autem accusantium exercitationem, suscipit rerum facere corrupti dicta voluptatibus?</p>
+            </div>
+        </div>
+    </section>
+    <section id="CONTACT" class="pt-24 lg:h-screen">
+        <div class="header text-center pb-8"><h1 class="text-7xl">Contact Us</h1></div>
+        <div class="cont container gap-x-7  mx-auto px-10 lg:px-36  flex flex-col lg:flex-row justify-center">
+            <div class="left lg:w-1/2 w-full pb-3">
+                <h2 class="text-4xl py-3">Send Message</h2>
+                <form action="" method="post" role="form">
+                        <div class="mb-3">
+                            <input type="text" class="name w-full border border-black rounded p-2 focus:outline-none focus:ring-2 focus:ring-gray-900" placeholder="Enter Your Name">
+                            <div class="pt-2 message-name text-red-800 hidden">Special characters and numbers not allowed</div>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="email w-full border border-black rounded p-2 focus:outline-none focus:ring-2 focus:ring-gray-900" name="email" id="email" placeholder="Enter Your Email">
+                            <div class="pt-2 message-email text-red-800 hidden">Invalid email</div>
+
+                            
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="phone w-full border border-black rounded p-2 focus:outline-none focus:ring-2 focus:ring-gray-900" name="subject" id="subject" placeholder="Enter Your Phone">
+                            <div class="pt-2 message-phone text-red-800 hidden">Invalid phone</div>
+
+                        </div>
+                        <div class="mb-3">
+                            <textarea class=" message w-full border border-black rounded p-2 focus:outline-none focus:ring-2 focus:ring-gray-900" name="message" rows="5" placeholder="Message"></textarea>
+                            <div class="pt-2 message-textarea text-red-800 hidden">Message must be at least 10 characters</div>
+
+                        </div>
+                    <div class="text-center mt-4">
+                        <button type="submit" class="submit bg-black text-white py-2 px-4 rounded hover:bg-[#000000c2]" disabled>Send Message</button>
+                    </div>
+                </form>
+            </div>
+            <div class="right lg:w-1/2 w-full">
+                <div class="title"><h2 class="text-4xl py-3">Get in Touch</h2></div>
+                    <p class="text-[20px]  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem expedita aperiam aliquid at. Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis mollitia inventore?</p>
+                    <ul class="flex space-x-4 justify-center pt-8">
+                        <li>
+                            <a href="#" class="text-white p-3 rounded-full  bg-black hover:bg-white hover:text-black">
+                                <i class="fab fa-facebook "></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-white p-3 rounded-full bg-black hover:bg-white hover:text-black">
+                                <i class="fab fa-instagram "></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-white  p-3 rounded-full bg-black hover:bg-white hover:text-black">
+                                <i class="fab fa-x-twitter "></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-white p-3 rounded-full bg-black hover:bg-white hover:text-black">
+                                <i class="fab fa-linkedin-in "></i>
+                            </a>
+                        </li>
+                    </ul>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-black p-10 mt-10 ">
+        <div class="container mx-auto px-10 lg:px-36">
+            <div class="flex justify-center pb-8 ">
+                <img src="images/logo-white.png" alt="">
+            </div>
+            <div class="text-center">
+                <p class="design text-white text-[20px] ">Created By <a href="https://github.com/abdelrahman271" class="font-bold">Abdelrahman Fathy</a> | All Rights Reserved ©</p>
+            </div>
+        </div>
+    </footer>
+    <button id="btn" class="bg-black text-white border-none rounded-full w-10 h-10 fixed bottom-7 right-7 cursor-pointer  hidden"><i class="fa-solid fa-arrow-up"></i></button>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="javascript/main.js"></script>
+</body>
+</html>
